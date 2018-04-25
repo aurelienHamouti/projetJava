@@ -7,7 +7,6 @@ public class FrmMain extends java.awt.Frame {
     public FrmMain() {
         initComponents();
         listMateriel = new ListeMateriel(new obsLstMateriel(lstMateriel));
-        //listMateriel.addObserver(new ObsTfFiltre(btnSolder,lstMateriel,tfFiltre,tfMtTot,tfNb));
     }
 
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
