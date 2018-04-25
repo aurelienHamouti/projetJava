@@ -5,4 +5,19 @@
    <groupId>ch.hesge.aurelien</groupId>
    <artifactId>projetJava</artifactId>
    <version>0.0.2-SNAPSHOT</version>
+   <dependencies>       
+
+        <dependency>
+
+            <groupId>org.testng</groupId>
+
+            <artifactId>testng</artifactId>
+
+            <version>6.8.8</version>
+
+            <scope>test</scope>
+
+        </dependency>
 </project>
+
+
