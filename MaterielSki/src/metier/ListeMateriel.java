@@ -12,6 +12,7 @@ public class ListeMateriel extends ListeObjects {
         setChanged(); notifyObservers(new Action(Action.LOAD));
     }
     
+    
     public void MettreAJourListe(String p){
         aListe = MaterielDao.getListeMateriel(p); 
         setChanged(); notifyObservers(new Action(Action.LOAD));
